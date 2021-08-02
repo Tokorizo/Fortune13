@@ -1033,7 +1033,7 @@
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/suit/armor/riot/knight/blue,
 /obj/item/clothing/head/helmet/knight/blue,
-/obj/item/claymore,
+/obj/item/melee/onehanded/machete/forgedmachete,
 /turf/open/floor/holofloor/grass,
 /area/holodeck/rec_center/thunderdome1218)
 "dq" = (
@@ -1047,7 +1047,7 @@
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/suit/armor/riot/knight/red,
 /obj/item/clothing/head/helmet/knight/red,
-/obj/item/claymore,
+/obj/item/melee/onehanded/machete/forgedmachete,
 /turf/open/floor/holofloor/grass,
 /area/holodeck/rec_center/thunderdome1218)
 "ds" = (
@@ -1333,7 +1333,6 @@
 "dX" = (
 /obj/structure/table/wood,
 /obj/item/folder,
-/obj/item/melee/classic_baton/telescopic,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/school)
 "dY" = (
@@ -3484,6 +3483,12 @@
 /area/centcom/evac)
 "km" = (
 /turf/closed/wall/f13/tunnel,
+/area/centcom/evac)
+"kn" = (
+/obj/structure/sign/poster/prewar/poster75{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "ko" = (
 /turf/closed/indestructible/abductor{
@@ -7607,7 +7612,7 @@
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
-/obj/item/kitchen/knife,
+/obj/item/melee/onehanded/knife/kitchen,
 /turf/open/floor/plasteel/vault{
 	dir = 8
 	},
@@ -8485,6 +8490,13 @@
 "ye" = (
 /obj/structure/chalkboard,
 /turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"yh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/prewar/poster60{
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "yi" = (
 /mob/living/simple_animal/hostile/raider/baseball,
@@ -9575,6 +9587,9 @@
 "CJ" = (
 /obj/structure/chair/stool/retro/black,
 /mob/living/simple_animal/hostile/raider,
+/obj/structure/sign/poster/prewar/poster82{
+	pixel_y = 32
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "CK" = (
@@ -9592,7 +9607,7 @@
 /turf/open/floor/plasteel/blue,
 /area/centcom/evac)
 "CM" = (
-/obj/item/claymore/machete,
+/obj/item/melee/onehanded/machete,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "CN" = (
@@ -10056,7 +10071,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "Fm" = (
-/obj/item/kitchen/knife/trench,
+/obj/item/melee/onehanded/knife/trench,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
 "FT" = (
@@ -10273,6 +10288,15 @@
 	dir = 8
 	},
 /area/tdome/tdomeobserve)
+"Ie" = (
+/obj/structure/chair/bench,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/deathmatch,
+/obj/structure/sign/poster/prewar/poster66{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 "Ih" = (
 /obj/structure/wreck/trash/three_barrels,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -10622,6 +10646,15 @@
 /obj/effect/landmark/abductor/agent,
 /turf/open/floor/plating/abductor,
 /area/abductor_ship)
+"JO" = (
+/obj/structure/chair/bench,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/deathmatch,
+/obj/structure/sign/poster/prewar/poster62{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 "JV" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/escape/backup)
@@ -11176,6 +11209,13 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Mz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/prewar/poster72{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 "MB" = (
 /turf/open/indestructible/binary,
 /area/fabric_of_reality)
@@ -11318,6 +11358,12 @@
 "OC" = (
 /obj/machinery/light/small{
 	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
+"OF" = (
+/obj/structure/sign/poster/prewar/poster72{
+	pixel_y = 32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/centcom/evac)
@@ -11936,6 +11982,13 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"TU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/prewar/poster94{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 "TZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -12286,6 +12339,14 @@
 /mob/living/simple_animal/bot/medbot,
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Zy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/structure/sign/poster/prewar/poster66{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/centcom/evac)
 "ZN" = (
 /obj/effect/decal/waste,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -33854,7 +33915,7 @@ yp
 Yw
 Fd
 Yy
-Yy
+yh
 QY
 Yy
 Yy
@@ -34117,7 +34178,7 @@ Qa
 Yy
 Ge
 Yw
-zS
+Ie
 Yy
 td
 DB
@@ -36672,7 +36733,7 @@ rb
 rb
 EF
 Yw
-Yv
+OF
 Yv
 Da
 Yv
@@ -37201,7 +37262,7 @@ WM
 Yv
 DW
 Yw
-zS
+JO
 Yy
 td
 DB
@@ -37700,7 +37761,7 @@ rb
 rb
 EF
 Yw
-Yy
+Mz
 Yv
 CZ
 Yv
@@ -38746,7 +38807,7 @@ PE
 Yy
 Yy
 td
-WT
+DB
 tm
 DB
 DB
@@ -39242,7 +39303,7 @@ rb
 rb
 EF
 Yw
-Yv
+OF
 Yv
 CZ
 Yy
@@ -39517,7 +39578,7 @@ Yw
 zT
 Yy
 Ka
-DB
+WT
 tm
 DB
 DB
@@ -40270,7 +40331,7 @@ rb
 rb
 EF
 Yw
-Yv
+OF
 Yv
 CZ
 Yv
@@ -40799,7 +40860,7 @@ Yv
 Yv
 Yv
 Yw
-Tm
+Zy
 Yy
 td
 DB
@@ -41821,7 +41882,7 @@ EO
 Yw
 YE
 Yy
-Yy
+TU
 VL
 Yy
 Fg
@@ -42329,7 +42390,7 @@ rb
 EF
 Yw
 Yw
-Yv
+kn
 Yv
 ES
 Yw

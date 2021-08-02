@@ -897,15 +897,6 @@
 	item_state = "badge-deputy"
 	access = list(ACCESS_BAR, ACCESS_GATEWAY)
 
-
-/obj/item/card/id/radiohost
-	name = "Radio Host's Card"
-	desc = "A identification card that seems to slot into some sort of console"
-	assignment = "ID tags"
-	icon_state = "gold"
-	item_state = "gold_id"
-	access = list(ACCESS_HEADS)
-
 /obj/item/card/id/dogtag/deputy/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/card/id/dogtag/sheriff))
 		var/newname = stripped_input(user, "Who do you want to designate as your deputy?", , "", MAX_NAME_LEN)
@@ -1127,6 +1118,10 @@
 	icon_state = "brokenholodog"
 	item_state = "brokenholodog"
 	uses_overlays = FALSE
+
+/obj/item/card/id/rusted/brokenholodog/enclave
+	name = "malfunctioning holotag"
+	desc = "A would-be advanced holographic dogtag, if it was working. Kept as a reminder to something."
 
 /obj/item/card/id/dentattoo
 	name = "Den Gang tattoo"
